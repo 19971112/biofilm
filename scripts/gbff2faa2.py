@@ -6,8 +6,6 @@ from collections import defaultdict
 argvs = sys.argv
 gb_file = argvs[1]
 
-print(gb_file)
-
 i = 1
 for record in SeqIO.parse(gb_file, 'genbank'):
 
